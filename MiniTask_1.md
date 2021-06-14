@@ -1,9 +1,27 @@
+Raspberry Pi Automated Plant Watering with Website
+
+source: https://www.hackster.io/ben-eagan/raspberry-pi-automated-plant-watering-with-website-8af2dc
+
+Aim: To read mositure lvl of soil and water it when needed
+
+Material:
+Raspberry Pi, Relay, 3-6v Submersible Pump, Flexible Water Line, SparkFun Soil Moisture Sensor (with Screw Terminals)
+
+Details: 
+As the title and aim suggest, we want to set up Raspberry Pi so it can take reading of moisture and run pump when mositure lvl is low. we will first put the moisture senser in plant soil and connect the sensor with Raspberry Pi, we 
+
+
+
+
+
+
+
+
 Creating and Solving Mazes on a 128 x 64 LED Panel
+
 https://www.hackster.io/doug-domke/creating-and-solving-mazes-on-a-128-x-64-led-panel-bb7740
 
 Aim: Generate a random maze and then solve it
-
-reason: It look nice and fun
 
 Material: Arduino Due, 64 by 32 LED panel, 5 volt 20 amp Power Supply, jumper wires
 
@@ -18,5 +36,6 @@ There are many technique to solve maze like following left walls. Hear we will a
 
 Showing the Solution:
 It is easy part as the sol from solving maze is stored, so we just have to display part by blinking different colour LED light 
+![solution](https://user-images.githubusercontent.com/85681011/121859375-4163d100-cd15-11eb-91f3-c1eb3de73d3d.gif)
 
 
