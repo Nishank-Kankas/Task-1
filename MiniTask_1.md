@@ -1,4 +1,4 @@
-## **Raspberry Pi Automated Plant Watering with Website**
+## **1: Raspberry Pi Automated Plant Watering with Website**
 
 **source**: https://www.hackster.io/ben-eagan/raspberry-pi-automated-plant-watering-with-website-8af2dc
 
@@ -22,7 +22,7 @@ code: [water.py](https://gist.github.com/benrules2/6f490f3a0e082ae6592a630bd7abe
 
 **improvement**: Add a buzzer which start ringing if moisture level dont increase after 1-2min to notify us there is some problem in water source
 
-## **Automatic Dog Feeder**
+## **2: Automatic Dog Feeder**
 **Source**: https://www.hackster.io/Casey_Jacobson/automatic-dog-feeder-c890f6#toc-how-it-works-1
 
 **Aim**: To make a device which will give food to dog accourding to time set by owner
@@ -44,7 +44,7 @@ code for webpage: [dogfeederservo.md](https://github.com/Nishank-Kankas/Task-1/f
 
 
 
-## **Creating and Solving Mazes on a 128 x 64 LED Panel**
+## **3: Creating and Solving Mazes on a 128 x 64 LED Panel**
 
 **Source**: https://www.hackster.io/doug-domke/creating-and-solving-mazes-on-a-128-x-64-led-panel-bb7740
 
