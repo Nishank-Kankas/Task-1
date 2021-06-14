@@ -13,7 +13,12 @@ As the title and aim suggest, we want to set up Raspberry Pi so it can take read
 ![image](https://user-images.githubusercontent.com/85681011/121859773-c0590980-cd15-11eb-97a7-9f5183928505.png)
 
 **working**:
-This resistance is inversely proportional to the soil moisture: so when moisture decrease, resistance will increase. Raspberry pi will take this value as input and when it exceddes a certain value (which tell water moisture is less), Pi will pass high voltage to relay which will result the circuit of power source and pump to complete. Hence pump will start and will supply water to plant till resistance decrease in moisture sensor. 
+Resistance is inversely proportional to the soil moisture: so when moisture decrease, resistance will increase. Raspberry pi will take this value as input and when it exceddes a certain value (which tell water moisture is less), Pi will pass high voltage to relay which will result the circuit of power source and pump to complete. Hence pump will start and will supply water to plant till resistance decrease in moisture sensor. To see details, things are also displayed on a webpage.
+
+code: [water.py](https://gist.github.com/benrules2/6f490f3a0e082ae6592a630bd7abe588), [web_plants.py](https://gist.github.com/benrules2/c4f3db455f4f2dfbe7d5b825b0b4ee36), [main.html](https://gist.github.com/benrules2/e43c469b2c1263237dc67010fca18b53)
+
+
+
 
 **improvement**: Add a buzzer which start ringing if moisture level dont increase after 1-2min to notify us there is some problem in water source
 
@@ -62,5 +67,9 @@ Next part is solving the maze which we just created, There are many technique to
 Finally lets display solution. It is easy part as the sol from solving maze is stored, so we just have to display part by blinking different colour LED light 
 
 ![final_sol](https://user-images.githubusercontent.com/85681011/121862404-673ea500-cd18-11eb-9971-ab0c74e2a936.gif)
+
+code: [Code.zip](https://github.com/Nishank-Kankas/Task-1/files/6647402/Code.zip)
+
+
 
 
