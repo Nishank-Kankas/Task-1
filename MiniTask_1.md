@@ -17,10 +17,8 @@ Resistance is inversely proportional to the soil moisture: so when moisture decr
 
 code: [water.py](https://gist.github.com/benrules2/6f490f3a0e082ae6592a630bd7abe588), [web_plants.py](https://gist.github.com/benrules2/c4f3db455f4f2dfbe7d5b825b0b4ee36), [main.html](https://gist.github.com/benrules2/e43c469b2c1263237dc67010fca18b53)
 
-
-
-
 **improvement**: Add a buzzer which start ringing if moisture level dont increase after 1-2min to notify us there is some problem in water source
+
 
 ## **2: Automatic Dog Feeder**
 **Source**: https://www.hackster.io/Casey_Jacobson/automatic-dog-feeder-c890f6#toc-how-it-works-1
@@ -40,7 +38,6 @@ To know about how much food is left, we are using a push sensor below food conta
 code: [dogfeederbutton.md](https://github.com/Nishank-Kankas/Task-1/files/6647295/dogfeederbutton.md)
 
 code for webpage: [dogfeederservo.md](https://github.com/Nishank-Kankas/Task-1/files/6647284/dogfeederservo.md)
-
 
 
 
@@ -71,5 +68,20 @@ Finally lets display solution. It is easy part as the sol from solving maze is s
 code: [Code.zip](https://github.com/Nishank-Kankas/Task-1/files/6647402/Code.zip)
 
 
+## **4: Automatic fan control system using LM35 temperature sensor**
 
+**Source**: https://www.hackster.io/Manishkr/automatic-fan-control-system-using-lm35-temperature-sensor-edbd80
+
+**Aim**: To make a fun control system which work accourdingly to temp
+
+**Material**: Arduino UNO, LM35, LED, Geared DC Motor - 12 V, Jumper wires, 9V battery
+
+**Details**:
+This project is to make an automatic fan which work when the room is hot. We had connected the system as shown in photo. Hear LM35 will tell us temp, if its more then 30degree then aurdino will run moter and turn green light on, otherwise red light will be on & moter off. 
+
+![image](https://user-images.githubusercontent.com/85681011/121876564-40d43600-cd27-11eb-9ea3-509b4448387a.png)
+
+Code: [Automatic fan control.zip](https://github.com/Nishank-Kankas/Task-1/files/6647521/Automatic.fan.control.zip)
+
+Improvement: a small LED screen to display temperature, and a on-off button to controll manually
 
