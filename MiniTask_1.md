@@ -33,11 +33,11 @@ code: [water.py](https://gist.github.com/benrules2/6f490f3a0e082ae6592a630bd7abe
 
 The device is capable to give food to dog at given time as well as tell us when we need to refill the food. Giving food part is made by simply using Servo which will connected with photon. Servo role is to open the door for two second (we can change time if we want to give more/less food) during food time. 
 
-To know about how much food is left, we are using a push sensor below food container. When there is food, it will be on due to weight otherwise off. We then connect the push button with a resistor to photon. We also connected red and green LED with it: green for 'food is there' and red for 'need refil'. This information is also uploaded on a webpage for ease of access by owner.
+To know about how much food is left, we are using a push sensor below food container. When there is food, it will be on due to weight otherwise off. We then connect the push button with a resistor to photon. We also connected red and green LED with it: green for 'food is there' and red for 'need refil'. 
 
 code: [dogfeederbutton.md](https://github.com/Nishank-Kankas/Task-1/files/6647295/dogfeederbutton.md)
 
-code for webpage: [dogfeederservo.md](https://github.com/Nishank-Kankas/Task-1/files/6647284/dogfeederservo.md)
+servo code: [dogfeederservo.md](https://github.com/Nishank-Kankas/Task-1/files/6647284/dogfeederservo.md)
 
 
 
