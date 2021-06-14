@@ -35,9 +35,13 @@ The device is capable to give food to dog at given time as well as tell us when 
 
 To know about how much food is left, we are using a push sensor below food container. When there is food, it will be on due to weight otherwise off. We then connect the push button with a resistor to photon. We also connected red and green LED with it: green for 'food is there' and red for 'need refil'. 
 
+![image](https://user-images.githubusercontent.com/85681011/121894628-fa89d180-cd3c-11eb-87a0-12dabf0aa757.png)
+
 code: [dogfeederbutton.md](https://github.com/Nishank-Kankas/Task-1/files/6647295/dogfeederbutton.md)
 
 servo code: [dogfeederservo.md](https://github.com/Nishank-Kankas/Task-1/files/6647284/dogfeederservo.md)
+
+Improvement: A webpage which notify user if food is low.
 
 
 
@@ -66,6 +70,8 @@ Finally lets display solution. It is easy part as the sol from solving maze is s
 ![final_sol](https://user-images.githubusercontent.com/85681011/121862404-673ea500-cd18-11eb-9971-ab0c74e2a936.gif)
 
 code: [Code.zip](https://github.com/Nishank-Kankas/Task-1/files/6647402/Code.zip)
+
+Improvement: A smaller screen to save cost.
 
 
 ## **4: Automatic fan control system using LM35 temperature sensor**
